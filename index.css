@@ -1,0 +1,80 @@
+html {
+	background-image: url("img/page-background.jpg");
+}
+
+input[type="text"] {
+	font-size: 30px;
+	height: 50px;
+}
+
+select {
+	font-size: 24px;
+	height: 50px;
+}
+
+pre {
+	white-space: pre-wrap;
+	font-size: 20;
+}
+
+#description {
+	text-align: center;
+	font-size: 36;
+	font-style: bold;
+	color: black;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.textbox {
+	height: 5%;
+	margin-left: 1%;
+}
+
+#name-container {
+	margin-bottom: 2%;
+}
+
+.error-message {
+	color: red;
+	font-style: bold;
+	margin-top: 1%;
+	font-size: 30px;
+}
+
+.page-label {
+	font-size: 32;
+	font-family: Sans-serif;
+	font-style: bold;
+}
+
+#submit-button {
+	margin-left: 60%;
+	height: 40px;
+	font-size: 30px;
+}
+.left-side {
+	width: 45%;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	border: 10px solid black;
+}
+
+.right-side {
+	width: 45%;
+	float: right;
+	font-size: 32;
+	font-style: bold;
+}
+
+.pad-right {
+	padding: 10px 10px 10px 10px;
+	border: 10px solid black;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	color: green;
+	font-size: 72;
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+	<link rel= "stylesheet" type="text/css" href="index.css"></link>
+	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<title> Non-Binary Be Like Me! </title>
+	<h1> Be Like Me!  Non-Binary Edition </h1>
+	<body>
+		<div id="description">
+				This is a simple application that replicates the features of the popular Blobla meme generator, but includes an option to provide a non-binary gender.
+				<br></br>
+				It's my belief that changing norms at a small level like this can propogate so that people who identify outside the false dichotomy of the gender binary feel more included in society.
+		</div>
+		<div id="content">
+			<div class="left-side">
+				<div id="name-container">
+					<label id="name-label" class="page-label" for="name">Name:</label>
+					<input id="name" class="textbox" width="40" type="text"></input>
+				</div>
+				<div id="gender-container">
+					<label id="gender-label" class="page-label" for="gender">Gender:</label>
+					<select id="gender">
+						<option value="non-binary">Non-Binary</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+					<button id="submit-button" type="button">Submit</button>
+				</div>
+				<div id="error-message-container">
+				</div>
+			</div>
+			<div class="right-side">
+				<div id="output-container">
+				</div>
+			</div>
+	  </div>
+	</body>
+</html>
